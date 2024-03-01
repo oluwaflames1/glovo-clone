@@ -1,0 +1,133 @@
+.content{
+    position: sticky;
+    width: 100%;
+    background: #F5A623;
+    line-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+button{
+    color: white;
+    background: green;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px;
+    border: none;
+}
+h2{
+    color: green;
+}
+
+video{
+    width: 100px;
+    height: auto;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 01);
+    border-radius: 10px;
+    
+}
+main{
+    /* margin-bottom: 20px; */
+    margin-right: 50px;
+    display: flex;
+    /* align-items: center ; */
+    justify-content: space-between;
+
+}
+.gif-content{
+    /* margin-bottom: 20px; */
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-group{
+    display: flex;
+    align-items: center;
+    
+} 
+
+
+
+
+@media only screen and (max-width: 460px){
+    .content{
+        position: sticky;
+        width: 100%;
+        background: #F5A623;
+        line-height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    
+    }
+    button{
+        color: white;
+        background: green;
+        height: 30px;
+        border-radius: 10px;
+        margin: 10px;
+        border: none;
+    }
+    h2{
+        color: green;
+    }
+    
+    video{
+        width: 100px;
+        height: auto;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 01);
+        border-radius: 10px;
+        
+    }
+    main{
+        margin-right: 50px;
+        display: flex;
+        /* align-items: center ; */
+        justify-content: space-between;
+    
+    }
+    .gif-content{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .icon-group{
+        display: flex;
+        align-items: center;
+        
+    } 
+}
+
+
+
+
+
+
+/* the svg that i did not get */
+.custom-shape-divider-top-1709222982 {
+    /* position: absolute; */
+    margin-top: 5px;
+    
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1709222982 svg {
+    /* position: relative; */
+    /* display: block; */
+    width: calc(290% + 1.3px);
+    height: 500px;
+}
+
+.custom-shape-divider-top-1709222982 .shape-fill {
+    fill: #F5A623;
+}
